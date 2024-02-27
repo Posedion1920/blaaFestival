@@ -78,11 +78,10 @@ button {
 
 .filter button {
     background-color: transparent;
-    border-width: 5px;
-    border-color: var(--ButtonColor);
+    border: 2px solid var(--ButtonColor);
     padding: 8px 1rem 8px 1rem;
     border-radius: 1rem;
-    color: var(--ButtonColor);
+    color: black;
 }
 
 /* Card */
@@ -142,3 +141,34 @@ img {
 }
 
 /*styling af cards omkring spisesteder*/
+
+.horizontalLine {
+    border: 1px solid black;
+    margin-block: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cardsSpillesteder {
+    background-color: white;
+}
+
+.cardsSpillesteder h3,
+span,
+p {
+    padding-inline: 10px;
+}
+
+.cardsSpillesteder a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsSpillesteder span {
+    font-weight: 200;
+    font-style: italic;
+    color: #35373B;
+}

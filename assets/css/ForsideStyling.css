@@ -25,10 +25,13 @@ i{
 
 
 nav{
-    position: sticky;
+    position: fixed;
+    right: 0px;
+    left: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 header{

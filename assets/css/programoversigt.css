@@ -63,8 +63,21 @@ button {
     font-style: normal;
 }
 
+/*styling af body*/
+/*Styling af header*/
+.hero img {
+    height: 200px;
+    width: auto;
+}
+
+/*styling af main*/
+
 
 /* Card */
+a {
+    text-decoration: none;
+}
+
 i {
     font-size: 16px;
     color: var(--ButtonColor);
@@ -86,6 +99,7 @@ i {
 
 .kunstnerNavn {
     margin-top: 0px;
+    color: black;
     margin-bottom: 0.6rem;
     padding-right: 10px;
 }

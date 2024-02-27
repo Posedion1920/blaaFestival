@@ -43,7 +43,7 @@ header{
 main{
     display: block;
 }
-h2{
+main h2{
     text-align: center;
     margin-bottom: 0px;
 }
@@ -65,5 +65,28 @@ img{
     width: auto;
 }
 
+.oversigt h2 {
+    text-align: left;
+    margin: 0px;
+}
+.oversigt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.oversigt i {
+    margin-right: 10px;
+    color: var(--ButtonColor);
+}
+
+section>article:last-of-type p:last-of-type{
+    width: 37ch;
+}
+
+hr{
+    margin-right: 9px;
+    border: 1.5px solid grey;
+    margin-bottom: 30px;
+}
 
 

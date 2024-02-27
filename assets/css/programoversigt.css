@@ -76,6 +76,15 @@ button {
     justify-content: space-between;
 }
 
+.filter button {
+    background-color: transparent;
+    border-width: 5px;
+    border-color: var(--ButtonColor);
+    padding: 8px 1rem 8px 1rem;
+    border-radius: 1rem;
+    color: var(--ButtonColor);
+}
+
 /* Card */
 a {
     text-decoration: none;
@@ -121,6 +130,7 @@ i {
 
 img {
     width: 100%;
+    height: 115px;
 }
 
 .MoveToRight {
@@ -130,3 +140,5 @@ img {
 .wrapper p:first-of-type {
     margin-bottom: 10px;
 }
+
+/*styling af cards omkring spisesteder*/

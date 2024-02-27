@@ -4,7 +4,8 @@ html{
 
 
 
-/* Navigation */
+
+/* Navigation og header*/
 span{
     color: red;
 }
@@ -32,6 +33,39 @@ nav{
 
 header{
     background-image: url(../billeder/Header_Forside.png);
-    height: 25.25vh;
+    height: 21vh;
     background-repeat: no-repeat;
 }
+
+
+/* Main indhold */
+
+main{
+    display: block;
+}
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-top: 4px;
+}
+
+main>article:first-of-type p{
+    width: 36ch;
+}
+
+section{
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+img{
+    width: auto;
+}
+.oversigt{
+    display: flex;
+    justify-content: center;
+}
+

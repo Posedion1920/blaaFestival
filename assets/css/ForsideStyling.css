@@ -2,10 +2,7 @@ html{
     --ButtonColor: #DE851D;
 }
 
-header{
-    background-color: red;
-    height: 19vh;
-}
+
 
 /* Navigation */
 span{
@@ -27,7 +24,14 @@ i{
 
 
 nav{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header{
+    background-image: url(../billeder/Header_Forside.png);
+    height: 25.25vh;
+    background-repeat: no-repeat;
 }

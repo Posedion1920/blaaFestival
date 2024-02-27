@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  --ButtonColor: #DE851D;
+}
+
+main {
+  padding: 1rem;
+}
+
+body {
+  margin: 0px;
+  background-color: #EDE9DC;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+button {
+  background-color: var(--ButtonColor);
+  padding: 8px 1rem 8px 1rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+}
+
+.datoTid {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Pratisk info styling */
+.hero img {
+    height: 200px;
+    width: auto;
+}
+
+/* Form gruppering */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+}
+
+.sendKnap {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: var(--ButtonColor);
+  padding: 8px 1rem 8px 1rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+}
+
+
+/* Accordions */
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .accordion-title {
+    background-color: #DE851D;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    outline: none;
+    position: relative;
+  }
+  
+  .accordion-title i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 16px;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    flex-grow: 1; 
+  }
+  
+  .show {
+    display: block;
+  }
+  

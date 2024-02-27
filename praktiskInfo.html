@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/praktiskInfo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./assets/js/praktiskInfo.js" defer></script>
+    <title>Praktisk Information</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="hero"
+        src="./assets/billeder/praktiskInfoHeader.jpg"
+        alt="Hero billede til praktisk info"
+      />
+    </header>
+    <main>
+      <h1>Praktisk Information</h1>
+      <section id="Kontakt">
+        <h2>Kontakt os</h2>
+        <p>
+          Du kan kontakte Søren Lindholt Hansen på: <br />
+          60 62 44 11
+        </p>
+        <p>Følg med på www.denblaafestival.dk og facebook</p>
+        <p>Eller send en besked her:</p>
+        <div class="form-group">
+          <label for="navn">Navn:</label>
+          <input type="text" id="navn" name="navn" required />
+        </div>
+        <div class="form-group">
+          <label for="mail">Mail:</label>
+          <input type="text" id="mail" name="mail" required />
+        </div>
+        <div class="form-group">
+          <label for="emne">Emne:</label>
+          <input type="text" id="emne" name="emne" required />
+        </div>
+        <div class="form-group">
+          <label for="besked">Besked:</label>
+          <textarea id="besked" name="besked" required></textarea>
+        </div>
+        <div class="sendKnap">
+          <input type="submit" value="Send" />
+        </div>
+      </section>
+
+      <section id="FAQ">
+        <h3>FAQ</h3>
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Hvordan får jeg adgang til festivalen?
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-minus hidden"></i>
+          </div>
+          <div class="accordion-content">
+            Vores samarbejdspartnere på diverse værtshuse har reglementer inde
+            på deres sider.
+            <a href="Link til spillesteder" target="_blank"
+              >Link til spillesteder</a
+            >
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Hvad koster det at tage til Blå festival?
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-minus hidden"></i>
+          </div>
+          <div class="accordion-content">
+            Der er fem forskellige spillesteder, og alle fem steder har gratis
+            entre. Vi bliver glade hvis du handler i vores barer, - det er
+            nemlig her de fleste af pengene kommer ind igen, og de bruges til at
+            betale musikerne der står på scenen.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Er der mad og drikke på festivalen?
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-minus hidden"></i>
+          </div>
+          <div class="accordion-content">
+            Det er forskelligt blandt spillestederne, nogen har åbent for mad,
+            mens andre kun har åbent for drinks.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Hvor finder jeg den næste koncert?
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-minus hidden"></i>
+          </div>
+          <div class="accordion-content">
+            Under vores live sektion har den næste koncert med tid og sted klar
+            til dig!
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-title">
+            Hvilke faciliteter kan jeg forvente?
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-minus hidden"></i>
+          </div>
+          <div class="accordion-content">
+            Finder du på pladserne og hos vore partnere på byens værtshuse og
+            spillesteder: Duus Vinkjælder, John Bull, m.v.
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

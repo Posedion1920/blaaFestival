@@ -51,6 +51,9 @@ button{
     border-radius: 1rem;
     border: none;
     color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .datoTid{
@@ -101,4 +104,16 @@ img{
 
 .wrapper p:first-of-type{
     margin-bottom: 9px;
+}
+
+
+
+/* Styling af footer */
+footer>div i{
+    color: #316FF6;
+}
+
+.fbicon{
+    display: flex;
+    justify-content: center;
 }

@@ -2,12 +2,10 @@ html{
     --ButtonColor: #DE851D;
 }
 
-header{
-    background-color: red;
-    height: 19vh;
-}
 
-/* Navigation */
+
+
+/* Navigation og header*/
 span{
     color: red;
 }
@@ -27,7 +25,45 @@ i{
 
 
 nav{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+header{
+    background-image: url(../billeder/Header_Forside.png);
+    height: 21vh;
+    background-repeat: no-repeat;
+}
+
+
+/* Main indhold */
+
+main{
+    display: block;
+}
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-top: 4px;
+}
+
+main>article:first-of-type p{
+    width: 36ch;
+}
+
+section{
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+img{
+    width: auto;
+}
+
+
+

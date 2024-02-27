@@ -71,7 +71,10 @@ button {
 }
 
 /*styling af main*/
-
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Card */
 a {

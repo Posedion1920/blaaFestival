@@ -61,6 +61,11 @@ button {
   font-style: normal;
 }
 
+/* Pratisk info styling */
+.hero img {
+    height: 200px;
+    width: auto;
+}
 
 /* Form gruppering */
 .form-group {

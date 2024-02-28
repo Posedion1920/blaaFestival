@@ -6,7 +6,6 @@ accordionTitles.forEach(title => {
     const plusIcon = title.querySelector('.fa-plus');
     const minusIcon = title.querySelector('.fa-minus');
 
-    // Skift plus og minus ikoner afhængigt af accordionens tilstand
     if (content.classList.contains('show')) {
       content.classList.remove('show');
       plusIcon.classList.remove('hidden');

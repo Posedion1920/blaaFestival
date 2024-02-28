@@ -66,7 +66,7 @@ button {
 /*styling af body*/
 /*Styling af header*/
 .hero img {
-    height: 200px;
+    height: 202px;
     width: auto;
 }
 
@@ -153,6 +153,7 @@ h2 {
 
 .cardsSpillesteder {
     background-color: white;
+    margin-top: 25px;
 }
 
 .cardsSpillesteder h3,
@@ -161,10 +162,22 @@ p {
     padding-inline: 10px;
 }
 
+.cardsSpillesteder h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cardsSpillesteder p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
 .cardsSpillesteder a {
+
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 .cardsSpillesteder span {
@@ -172,3 +185,6 @@ p {
     font-style: italic;
     color: #35373B;
 }
+
+
+/*stylling af footer*/

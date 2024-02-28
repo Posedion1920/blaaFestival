@@ -130,6 +130,7 @@ i {
 img {
     width: 100%;
     height: 115px;
+    object-fit: cover;
 }
 
 .MoveToRight {
@@ -154,6 +155,10 @@ h2 {
 .cardsSpillesteder {
     background-color: white;
     margin-top: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .cardsSpillesteder h3,
@@ -184,6 +189,55 @@ p {
     font-weight: 200;
     font-style: italic;
     color: #35373B;
+}
+
+.carousel {
+    position: relative;
+    height: 600px;
+    width: 275px;
+    margin: 0 auto;
+}
+
+.carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.carouselButtonLeft {
+    left: -40px;
+}
+
+.carouselButtonRight {
+    right: -40px;
+}
+
+.carouselButton img {
+    width: 12px;
+}
+
+.carouselNav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.carouselIndicator {
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.carouselIndicator.currentSlide {
+    background-color: rgb(0, 0, 0, .90);
 }
 
 

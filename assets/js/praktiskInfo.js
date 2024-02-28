@@ -11,6 +11,7 @@ accordionItems.forEach(item => {
 
 
 
+
 // Burgermenu
 const BurgermenuEl = document.querySelector(".burger-menu");
 const menuEl= document.querySelector(".menu");

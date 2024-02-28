@@ -101,41 +101,50 @@ input[type="submit"] {
   color: white;
 }
 
-
 /* Accordions */
 .accordion-item {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  
-  .accordion-title {
-    background-color: #DE851D;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px;
-    text-align: left;
-    border: none;
-    outline: none;
-    position: relative;
-  }
-  
-  .accordion-title i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10px;
-    font-size: 16px;
-  }
-  
-  .accordion-content {
-    display: none;
-    padding: 10px;
-    background-color: #fff;
-    flex-grow: 1; 
-  }
-  
-  .show {
-    display: block;
-  }
+  margin-bottom: 20px;
+}
+
+.accordion-title {
+  background-color: #DE851D;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+/* Plus- og minusikoner */
+.accordion-title::before {
+  content: "\02795"; /* Unicode for plus */
+  font-family: "FontAwesome";
+  float: right;
+  margin-left: 5px;
+}
+
+/* Skjul indholdet som standard */
+.accordion-content {
+  display: none;
+  padding: 10px; 
+  background-color: #fff; 
+}
+
+/* Vis indholdet, når accordion er åben */
+.accordion-item.show .accordion-content {
+  display: block;
+}
+
+/* Skift ikon til minus, når accordion er åben */
+.accordion-item.show .accordion-title::before {
+  content: "\02796"; /* Unicode for minus */
+}
+
+/* Juster bredden på spørgsmålsdelen */
+.accordion-title {
+  width: calc(100% - 20px); /* Juster bredden for at matche tekstboksen */
+}
+
+
   

@@ -1,19 +1,9 @@
-const accordionTitles = document.querySelectorAll('.accordion-title');
+const accordionItems = document.querySelectorAll('.accordion-item');
 
-accordionTitles.forEach(title => {
-  title.addEventListener('click', () => {
-    const content = title.nextElementSibling;
-    const plusIcon = title.querySelector('.fa-plus');
-    const minusIcon = title.querySelector('.fa-minus');
+accordionItems.forEach(item => {
+    const title = item.querySelector('.accordion-title');
 
-    if (content.classList.contains('show')) {
-      content.classList.remove('show');
-      plusIcon.classList.remove('hidden');
-      minusIcon.classList.add('hidden');
-    } else {
-      content.classList.add('show');
-      plusIcon.classList.add('hidden');
-      minusIcon.classList.remove('hidden');
-    }
-  });
+    title.addEventListener('click', () => {
+        item.classList.toggle('show');
+    });
 });

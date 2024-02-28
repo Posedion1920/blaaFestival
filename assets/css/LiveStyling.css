@@ -1,0 +1,60 @@
+main{
+    display: block;
+}
+
+nav{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header{
+    background-image: url(../billeder/Header_Forside.png);
+    height: 21vh;
+    background-repeat: no-repeat;
+}
+
+span{
+    color: red;
+}
+
+i{
+    font-size: 32px;
+    color: white;
+    padding: 0px;
+}
+
+.burger-menu{
+    background-color: var(--ButtonColor);
+    padding: 8px 16px 8px 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.breadcrumb{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 0px 0px 0.8rem;
+}
+.breadcrumb li{
+    font-size: 10px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+i{
+    font-size: 20px;
+}

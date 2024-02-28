@@ -1,20 +1,36 @@
-const accordionTitles = document.querySelectorAll('.accordion-title');
+const accordionItems = document.querySelectorAll('.accordion-item');
 
-accordionTitles.forEach(title => {
-  title.addEventListener('click', () => {
-    const content = title.nextElementSibling;
-    const plusIcon = title.querySelector('.fa-plus');
-    const minusIcon = title.querySelector('.fa-minus');
+accordionItems.forEach(item => {
+    const title = item.querySelector('.accordion-title');
 
-    // Skift plus og minus ikoner afhængigt af accordionens tilstand
-    if (content.classList.contains('show')) {
-      content.classList.remove('show');
-      plusIcon.classList.remove('hidden');
-      minusIcon.classList.add('hidden');
-    } else {
-      content.classList.add('show');
-      plusIcon.classList.add('hidden');
-      minusIcon.classList.remove('hidden');
-    }
-  });
+    title.addEventListener('click', () => {
+        item.classList.toggle('show');
+    });
 });
+
+
+
+
+
+// Burgermenu
+const BurgermenuEl = document.querySelector(".burger-menu");
+const menuEl= document.querySelector(".menu");
+const xmarkEl = document.getElementById("Remove")
+
+function ShowMenu(){
+  menuEl.style.display = "block";
+  BurgermenuEl.style.display="none";
+}
+
+function RemoveMenu(){
+  menuEl.style.display="none";
+  BurgermenuEl.style.display="block";
+}
+
+BurgermenuEl.addEventListener("click",function(){
+  ShowMenu();
+})
+
+xmarkEl.addEventListener("click",function(){
+  RemoveMenu();
+})

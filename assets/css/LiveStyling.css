@@ -1,0 +1,107 @@
+main{
+    display: block;
+}
+
+nav{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header{
+    background-image: url(../billeder/Header_Forside.png);
+    height: 21vh;
+    background-repeat: no-repeat;
+}
+
+span{
+    color: red;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+}
+
+.burger-menu{
+    background-color: var(--ButtonColor);
+    padding: 8px 16px 8px 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.breadcrumb{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 0px 0px 0.8rem;
+}
+.breadcrumb li{
+    font-size: 10px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.spotify{
+    border-radius: 14px;
+}
+
+.menu{
+ position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: var(--ButtonColor);
+  width: 100%;
+  height: 43vh;
+}
+
+.menu ul{
+    padding-top: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.DontSHowMenu{
+    opacity: 0;
+}
+
+.menuElements{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    display: none;
+}
+
+.menuElements i{
+    font-size: 24px;
+    padding: 1rem 1rem 0px 0px;
+}
+
+
+

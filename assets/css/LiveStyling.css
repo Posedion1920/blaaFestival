@@ -19,16 +19,6 @@ header{
     background-repeat: no-repeat;
 }
 
-span{
-    color: red;
-    position: absolute;
-    left: 46px;
-    top: 13.5px;
-    background-color: red;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
 .LiveButton{
     position: relative;
 }
@@ -39,12 +29,7 @@ i{
     padding: 0px;
 }
 
-.burger-menu{
-    background-color: var(--ButtonColor);
-    padding: 8px 16px 8px 16px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
+
 
 .breadcrumb{
     display: flex;

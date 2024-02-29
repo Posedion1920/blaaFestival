@@ -1,5 +1,6 @@
 main{
     display: block;
+    padding-top: 0px;
 }
 
 nav{
@@ -42,6 +43,14 @@ i{
 }
 .breadcrumb li{
     font-size: 10px;
+}
+
+.breadcrumb li:first-of-type{
+    color: #BFBDBB;
+}
+
+ul.breadcrumb{
+    margin-bottom: 0px;
 }
 
 .location{
@@ -103,5 +112,29 @@ a{
     padding: 1rem 1rem 0px 0px;
 }
 
+h2:first-of-type{
+    width: 20ch;
+    margin-bottom: 0px;
+}
 
+.spillested{
+    margin: 6px 0px 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
 
+#location{
+    color: var(--ButtonColor);
+}
+
+.km{
+    margin: 10px 0px 0px 0px;
+}
+
+.price{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 6px;
+}

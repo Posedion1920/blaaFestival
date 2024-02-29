@@ -1,4 +1,4 @@
-html{
+html {
     --ButtonColor: #DE851D;
 }
 
@@ -7,14 +7,14 @@ html{
 
 /* Navigation og header*/
 
-i{
+i {
     font-size: 20px;
     color: white;
     padding: 0px;
 }
 
 
-nav{
+nav {
     position: fixed;
     right: 0px;
     left: 0px;
@@ -24,37 +24,39 @@ nav{
 
 }
 
-header{
+header {
     background-image: url(../billeder/Header_Forside.png);
     height: 21vh;
     background-repeat: no-repeat;
+    height: 202px;
 }
 
 
 /* Main indhold */
 
-main{
+main {
     display: block;
 }
-main h2{
+
+main h2 {
     text-align: center;
     margin-bottom: 0px;
 }
 
-h1{
+h1 {
     margin-top: 4px;
 }
 
-main>article:first-of-type p{
+main>article:first-of-type p {
     width: 36ch;
 }
 
-section{
+section {
     box-shadow: none;
     border-radius: 0px;
 }
 
-img{
+img {
     width: auto;
 }
 
@@ -62,7 +64,8 @@ img{
     text-align: left;
     margin: 0px;
 }
-.oversigt{
+
+.oversigt {
     display: flex;
     justify-content: space-between;
 }
@@ -72,14 +75,12 @@ img{
     color: var(--ButtonColor);
 }
 
-section>article:last-of-type p:last-of-type{
+section>article:last-of-type p:last-of-type {
     width: 37ch;
 }
 
-hr{
+hr {
     margin-right: 9px;
     border: 1.5px solid grey;
     margin-bottom: 30px;
 }
-
-

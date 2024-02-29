@@ -346,3 +346,14 @@ button>span{
     padding: 0px;
     font-size: 20px;
 }
+
+.dot{
+    color: red;
+    position: absolute;
+    left: 46px;
+    top: 13.5px;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

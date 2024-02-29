@@ -1,11 +1,11 @@
 const accordionItems = document.querySelectorAll('.accordion-item');
 
 accordionItems.forEach(item => {
-    const title = item.querySelector('.accordion-title');
+  const title = item.querySelector('.accordion-title');
 
-    title.addEventListener('click', () => {
-        item.classList.toggle('show');
-    });
+  title.addEventListener('click', () => {
+    item.classList.toggle('show');
+  });
 });
 
 
@@ -14,23 +14,24 @@ accordionItems.forEach(item => {
 
 // Burgermenu
 const BurgermenuEl = document.querySelector(".burger-menu");
-const menuEl= document.querySelector(".menu");
+const menuEl = document.querySelector(".menu");
 const xmarkEl = document.getElementById("Remove")
 
-function ShowMenu(){
+function ShowMenu() {
   menuEl.style.display = "block";
-  BurgermenuEl.style.display="none";
+  BurgermenuEl.style.display = "none";
 }
 
-function RemoveMenu(){
-  menuEl.style.display="none";
-  BurgermenuEl.style.display="block";
+function RemoveMenu() {
+  menuEl.style.display = "none";
+  BurgermenuEl.style.display = "block";
 }
 
-BurgermenuEl.addEventListener("click",function(){
+BurgermenuEl.addEventListener("click", function () {
   ShowMenu();
 })
 
-xmarkEl.addEventListener("click",function(){
+xmarkEl.addEventListener("click", function () {
   RemoveMenu();
 })
+

@@ -5,8 +5,9 @@ html {
 }
 
 main {
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
+
 
 body {
     margin: 0px;
@@ -141,9 +142,13 @@ img {
     margin-bottom: 10px;
 }
 
+.remove {
+    display: none;
+}
+
 /*styling af cards omkring spillesteder*/
 
-.horizontalLine {
+hr {
     border: 1px solid black;
     margin-block: 25px;
 }
@@ -242,3 +247,21 @@ p {
 
 
 /*stylling af footer*/
+footer {
+    background: linear-gradient(to bottom, rgba(237, 233, 220, 0.1), #DFDFDE);
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+footer>div i {
+    color: #316FF6;
+    padding-bottom: 1rem;
+}
+
+.fbicon {
+    display: flex;
+    justify-content: center;
+}
+
+footer p:first-of-type {
+    margin-bottom: 32px;
+}

@@ -66,9 +66,14 @@ button {
 
 /*styling af body*/
 /*Styling af header*/
-.hero img {
+header {
+    background-image: url(../billeder/Programoversigt-hero.jpg);
+    height: 21vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
     height: 202px;
-    width: auto;
 }
 
 /*styling af main*/

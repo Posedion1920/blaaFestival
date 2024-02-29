@@ -65,14 +65,13 @@ button {
 }
 
 /*styling af body*/
+
 /*Styling af header*/
 header {
     background-image: url(../billeder/Programoversigt-hero.jpg);
     height: 21vh;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    object-fit: cover;
     height: 202px;
 }
 
@@ -272,12 +271,12 @@ footer p:first-of-type {
 }
 
 
-.cards a{
+.cards a {
     min-width: 174px;
     min-height: 200px;
 }
 
-.cards section{
+.cards section {
     width: 100%;
     height: 100%;
 }

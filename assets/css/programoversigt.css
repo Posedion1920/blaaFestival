@@ -293,6 +293,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+button>span{
+    padding-inline: 0px;
+}
 
 .burger-menu {
     background-color: var(--ButtonColor);

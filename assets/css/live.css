@@ -112,6 +112,12 @@ i {
     padding-right: 10px;
 }
 
+section {
+    margin-top: 25px;
+    box-shadow: rgba(77, 76, 76, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
 .cards section {
     margin-top: 25px;
     box-shadow: rgba(77, 76, 76, 0.35) 0px 5px 15px;

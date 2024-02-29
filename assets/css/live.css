@@ -68,7 +68,7 @@ button {
 
 /*styling af header*/
 header {
-    background-image: url(../billeder/Programoversigt-hero.jpg);
+    background-image: url(../billeder/heroLive.png);
     height: 21vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,10 @@ header {
 }
 
 /*Styling af main*/
+
+main h1 {
+    margin-top: 0;
+}
 
 #IntroLive {
     text-align: center;
@@ -111,6 +115,7 @@ i {
     margin-bottom: 0.6rem;
     padding-right: 10px;
 }
+
 
 section {
     margin-top: 25px;

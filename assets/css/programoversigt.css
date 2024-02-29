@@ -341,3 +341,8 @@ button>span{
     padding: 0rem 1rem 0px 0px;
 }
 
+#Remove{
+    color: white;
+    padding: 0px;
+    font-size: 20px;
+}

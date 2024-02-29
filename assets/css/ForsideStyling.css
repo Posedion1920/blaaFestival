@@ -72,6 +72,7 @@ img {
 .oversigt i {
     margin-right: 10px;
     color: var(--ButtonColor);
+    font-size: 28px;
 }
 
 section>article:last-of-type p:last-of-type {

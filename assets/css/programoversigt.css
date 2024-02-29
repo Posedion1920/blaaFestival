@@ -280,3 +280,80 @@ footer p:first-of-type {
     width: 100%;
     height: 100%;
 }
+
+
+
+/* Burgermenu */
+
+nav{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button>span{
+    padding-inline: 0px;
+}
+
+.burger-menu {
+    background-color: var(--ButtonColor);
+    padding: 8px 16px 8px 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.burger-menu i{
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.LiveButton {
+    position: relative;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: var(--ButtonColor);
+    width: 100%;
+    height: 43vh;
+}
+
+.menu ul {
+    padding-top: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.menuElements {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding: 0rem 1rem 0px 0px;
+}
+
+#Remove{
+    color: white;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.dot{
+    color: red;
+    position: absolute;
+    left: 46px;
+    top: 13.5px;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

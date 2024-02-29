@@ -293,3 +293,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+.burger-menu {
+    background-color: var(--ButtonColor);
+    padding: 8px 16px 8px 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.burger-menu i{
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+}

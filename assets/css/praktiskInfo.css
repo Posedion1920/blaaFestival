@@ -6,11 +6,17 @@ html {
 
 main {
   padding: 1rem 2rem 1rem 2rem;
+  margin-top: 220px;
 }
 
 body {
   margin: 0px;
   background-color: #EDE9DC;
+  background-image: url(../billeder/praktiskInfoHeader.jpg);
+  background-size: 430px 202px;
+  background-position: top; 
+  background-repeat: no-repeat;
+ 
 }
 
 p {

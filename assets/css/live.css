@@ -151,8 +151,13 @@ img {
     padding-left: 10px;
 }
 
+
 .wrapper p:first-of-type {
     margin-bottom: 10px;
+}
+.locationKM{
+    display: flex;
+    justify-content: space-between;
 }
 
 

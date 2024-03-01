@@ -38,9 +38,10 @@ i{
 }
 .breadcrumb li{
     font-size: 10px;
+    font-weight: 600;
 }
 
-.breadcrumb li:first-of-type{
+.breadcrumbLink1{
     color: #BFBDBB;
 }
 

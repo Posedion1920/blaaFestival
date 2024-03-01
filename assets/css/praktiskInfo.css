@@ -5,19 +5,11 @@ html {
 }
 body{
   margin: 0px;
+  background-color: #EDE9DC;
 }
 
 main {
   padding: 1rem 2rem 1rem 2rem;
-}
-
-
-header{
-  background-color: #EDE9DC;
-  background-image: url(../billeder/praktiskInfoHeader.jpg);
-  background-size: 430px 205px;
-  background-position: top; 
-  background-repeat: no-repeat;
 }
 
 header{

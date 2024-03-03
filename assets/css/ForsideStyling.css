@@ -84,3 +84,11 @@ hr {
     border: 1.5px solid grey;
     margin-bottom: 30px;
 }
+
+.menu a{
+text-decoration: none;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}

@@ -14,7 +14,7 @@ nav{
 }
 
 header{
-    background-image: url(../billeder/Header_Forside.png);
+    background-image: url(../billeder/HeaderKunstner.png);
     height: 21vh;
     background-repeat: no-repeat;
 }
@@ -38,9 +38,10 @@ i{
 }
 .breadcrumb li{
     font-size: 10px;
+    font-weight: 600;
 }
 
-.breadcrumb li:first-of-type{
+.breadcrumbLink1{
     color: #BFBDBB;
 }
 

@@ -332,6 +332,14 @@ button>span{
     gap: 8px
 }
 
+.menu a{
+    text-decoration: none;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;  
+}
+
 .menuElements {
     height: 5vh;
     display: flex;
